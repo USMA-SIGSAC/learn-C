@@ -1,0 +1,53 @@
+How to create your Own Branch and push it out from your compooter.
+
+1. Use Terminal(linux preferrably or use powershell on windows)
+
+2. install git
+sudo apt-get install git
+
+3. clone this repo
+git clone https://github.com/USMA-SIGSAC/learn-C
+enter credentials. you should have a learn-C folder after this.
+
+This will be your local folder to work on learn C!!
+
+Let's test it out by creating a test file and uploading it!
+
+4. make changes.
+For example 
+nano Testing.txt
+type "testing" into the file. 
+ctrl x
+y
+
+This is your test file! 
+Now, it is time to upload your changes to your own branch!
+
+**MUST BE INSIDE "/learn-C" Directory when you use any of the commands.
+
+5. create your branch(it will be your submission folder in learn-C group)
+git branch MyBranchName :to create a branch named "MyBranchName" 
+git branch  :to check your current branch
+git add nameofthefile :to add a new file called nameofthefiile
+
+6. Check Status before saving.
+Always type 
+git status  : to check your status of the changes!
+for example since you added a new file called Testing.txt, type
+git add Testing.txt :to let github know you added a file!
+
+6. make commit
+This is like saving a new file before uploading.
+
+Make a commit by using
+
+git commit -m "This is uploading test file!" : this command will save the changes as a commit!
+
+you can replace "This is uploading test file!" with any message that can help you track this commit.
+
+
+7. push commit
+Finally we are uploading(pushing) to github server!
+
+git push origin MyBranchName : to upload your commits to MyBranchName branch!
+It might ask for credentials again.

@@ -1,48 +1,40 @@
 How to create your Own Branch and Submit it from your computer to GitHub using command line
 
-
+0. First  Create your branch by using your LastName! ( Look here: http://imgur.com/ONh9kDk )
 
 1. Use Terminal(linux preferrably or use powershell on windows)
 
 2. install git
 sudo apt-get install git :for linux
 
-3. clone this repository(submission folder)
-git clone https://github.com/USMA-SIGSAC/learn-C
+3. make a new directory and clone this repository(submission folder)
+git clone -b LastName https://github.com/USMA-SIGSAC/learn-C
 : this will make a copy of submission folder in your computer!
 
-Enter credentials. you should have a learn-C folder in your computer after this.
+It will ask for credentials. Enter your Github ID and password!
+You should have a learn-C folder in your computer after this.
 This will be your local folder to work on learn C!!
 
 Let's test it out by creating a test file(making changes) and uploading it!
 
+** FROM NOW ON YOU MUST BE INSIDE "/learn-C" Directory when you use any of the commands.
+
 4. make changes.
 For example 
 nano Testing.txt
-type "testing" into the file. 
+type "LastName testing" into the file. 
 ctrl x
 y
+Enter
 
 This is your test file! 
 Now, it is time to upload your changes to your own branch!
 
-**MUST BE INSIDE "/learn-C" Directory when you use any of the commands.
-
-5. create your branch(it will be your submission folder in learn-C group)
-git branch MyBranchName :to create a branch named "MyBranchName" 
-git branch  :to check your current branch
-git add nameofthefile :to add a new file called nameofthefile
-
-6. Check Status before saving.
+5. Check Status before saving.
 Always type 
-git status  : to check your status of the changes!
-for example since you added a new file called Testing.txt, type
-git add Testing.txt :to let github know you added a file! You must do this Every time you make changes to your local file or it will not reflect your changes!.
 
-*Don't type this in. This is for future reference.
-rm Testing.txt : will remove your file your from local folder
-git rm Testing.txt : will remove Testing.txt from repo with this new commit
- 
+git status  :to check your status of the changes!
+git add --all  :to reflect all the changes!!
 
 6. make commit
 Commits are new versions of the file. 
@@ -55,7 +47,9 @@ You can replace "This is uploading test file!" with any message that can help yo
 7. push commit
 Finally we are uploading(pushing) to github server!
 
-git push origin MyBranchName : to upload your commits to MyBranchName branch!
+git push origin LastName : to upload your commits to MyBranchName branch!
 It might ask for credentials again.
+
+8. Check Website to make sure if your file is uploaded!
 
 If you have any questions email me at gunwoo.kim@usma.edu!

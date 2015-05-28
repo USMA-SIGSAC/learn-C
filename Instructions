@@ -1,4 +1,4 @@
-1. I highly encourage using terminal to do all github stuff!
+1. While alternate methods are available for interacting with Github, use a terminal to build proficiency.
 
 2. Install Git if you don't have it 
 sudo apt-get install git
@@ -17,7 +17,13 @@ in learn-C directy
 cd /learn-C
 mkdir higunwoo //example
 
+**DO NOT delete/modify OTHER PEOPLE's FOLDERS**
+
 5. inside your directory, put your learn C progress!
+
+*use vim as their text editor because when operating on a target box 
+we don't get to choose what tools are on it, but vim, or at least 
+vi always will be so you must be proficient at it 
 
 6. after you are done for the day, update and save your commit by
 
@@ -28,4 +34,6 @@ git comimt -m "ex1, ex2, ex3"
 7. submit your commit by
 git push origin
 
-(If you have any questions, ask batman or higunwoo.)
+(If you have any questions, look ask batman higunwoo.)
+
+http://rogerdudler.github.io/git-guide/ is a good source to learn about gits.

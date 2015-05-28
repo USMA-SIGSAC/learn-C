@@ -34,4 +34,6 @@ git comimt -m "ex1, ex2, ex3"
 7. submit your commit by
 git push origin
 
-(If you have any questions, ask batman or higunwoo.)
+(If you have any questions, look ask batman higunwoo.)
+
+http://rogerdudler.github.io/git-guide/ is a good source to learn about gits.

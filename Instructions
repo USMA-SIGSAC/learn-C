@@ -1,0 +1,31 @@
+1. I highly encourage using terminal to do all github stuff!
+
+2. Install Git if you don't have it 
+sudo apt-get install git
+
+3. make a new directory (such as Git)
+mkdir Git
+
+3. go into the directory and clone this repo
+
+cd Git
+git clone https://github.com/USMA-SIGSAC/learn-C
+
+4. make a new directory using your handle/githubID/name(if you choose to do so)
+in learn-C directy
+
+cd /learn-C
+mkdir higunwoo //example
+
+5. inside your directory, put your learn C progress!
+
+6. after you are done for the day, update and save your commit by
+
+git add --all
+git comimt -m "ex1, ex2, ex3" 
+(you can put whatever message describing your commit between " ")
+
+7. submit your commit by
+git push origin
+
+(If you have any questions, ask batman or higunwoo.)

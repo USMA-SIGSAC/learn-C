@@ -17,6 +17,8 @@ in learn-C directy
 cd /learn-C
 mkdir higunwoo //example
 
+
+------END OF INITIAL SETUP------
 **DO NOT delete/modify OTHER PEOPLE's FOLDERS**
 
 5. inside your directory, put your learn C progress!
@@ -33,6 +35,8 @@ git comimt -m "ex1, ex2, ex3"
 
 7. submit your commit by
 git push origin
+
+if you get an error at this point try "git pull" and then try "git push origin" again.
 
 (If you have any questions, look ask batman higunwoo.)
 

@@ -22,7 +22,7 @@ use "Learn C the Hard Way" and post your progress here!</br>
     </li>
     <li>make a new directory using your handle</br>
         &nbsp&nbsp<code>cd /learn-C</code></br>
-        &nbsp&nbsp<code>mkdir <em>your handle</em></code>
+        &nbsp&nbsp<code>mkdir <em>yourhandle</em></code>
     </li>
 </ol>
 <h3>Making Contributions</h3>
@@ -33,7 +33,7 @@ use "Learn C the Hard Way" and post your progress here!</br>
     <li>
         after you are done for the day, update and save your commit by</br>
         &nbsp&nbsp<code>git add --all</code></br>
-        &nbsp&nbsp<code>git comimt -m "ex1, ex2, ex3"</code></br>
+        &nbsp&nbsp<code>git commit -m "ex1, ex2, ex3"</code></br>
         &nbsp&nbsp(you can put whatever message describing your commit between "&nbsp")
     </li>
     <li>

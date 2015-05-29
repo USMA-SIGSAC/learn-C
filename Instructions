@@ -1,15 +1,17 @@
+<h3>Git and Learn C the Hard Way instructions</h3>
+
 1. While alternate methods are available for interacting with Github, use a terminal to build proficiency.
 
 2. Install Git if you don't have it 
 sudo apt-get install git
 
 3. make a new directory (such as Git)
-mkdir Git
+    <code>mkdir Git</code>
 
-3. go into the directory and clone this repo
+3. go into the directory and clone this repo to download a working local copy
 
-cd Git
-git clone https://github.com/USMA-SIGSAC/learn-C
+    cd Git
+    git clone https://github.com/USMA-SIGSAC/learn-C
 
 4. make a new directory using your handle/githubID/name(if you choose to do so)
 in learn-C directy

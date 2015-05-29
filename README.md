@@ -32,7 +32,9 @@ use "Learn C the Hard Way" and post your progress here!</br>
 </ol>
 <h3>Making Contributions</h3>
 <ol>
-    <li>inside your directory, put your learn C progress! <strong>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</strong></li>
+    <li>
+        inside your directory, put your learn C progress! <strong>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</strong>
+    </li>
  
     <li>
         after you are done for the day, update and save your commit by</br>
@@ -44,7 +46,7 @@ use "Learn C the Hard Way" and post your progress here!</br>
     </li>
     
     <li>
-        submit your commit by
+        submit your commit by</br>
         &nbsp&nbsp<code>git push origin</code></br>
         &nbsp&nbspif you get an error at this point try "git pull" and then try "git push origin" again.
     </li>

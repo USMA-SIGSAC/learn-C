@@ -8,7 +8,7 @@ use "Learn C the Hard Way" and post your progress here!</br>
     <li>Tools
         <ul>
             <li><a href="http://rogerdudler.github.io/git-guide/">Here's</a> a good Git tutorial. Use the commands rather than other ways of interacting with Github to build proficiency.</li> 
-            <li>Use Vim as your text editor for LCTHW. If you're on a target box you don't get to choose what tools are installed, so learn Vim because it (or at least Vi) should be on every *nix box. <a href="">Here's a good Vim tutorial.</a></li>
+            <li>Use Vim as your text editor for LCTHW. If you're on a target box you don't get to choose what tools are installed, so learn Vim because it (or at least Vi) should be on every *nix box. <a href="http://www.openvim.com/">Here's a good Vim tutorial.</a></li>
         </ul>
     <li>Install Git if you don't have it</br>
         &nbsp&nbsp<code>sudo apt-get install git</code>
@@ -24,8 +24,8 @@ use "Learn C the Hard Way" and post your progress here!</br>
     </li>
     
     <li>make a new directory using your handle</li>
-        &nbsp&nbsp<code>cd /learn-C</code>
-        &nbsp&nbsp<code>mkdir higunwoo //example</code>
+        &nbsp&nbsp<code>cd /learn-C</code></br>
+        &nbsp&nbsp<code>mkdir <em>your handle</em></code>
     </li>
 </ol>
 <h3>Making Contributions</h3>

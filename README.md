@@ -1,7 +1,7 @@
 <h1>learn-C</h1>
 use "Learn C the Hard Way" and post your progress here!</br>
 <a href="http://c.learncodethehardway.org/book/">http://c.learncodethehardway.org/book/</a>
-<h2>Git and Learn C the Hard Way instructions</h2>
+<h2>Instructions</h2>
 </br>
 <h3>Git Initial Setup</h3>
 <ol>
@@ -20,11 +20,9 @@ use "Learn C the Hard Way" and post your progress here!</br>
         &nbsp&nbsp<code>cd Git</code></br>
         &nbsp&nbsp<code>git clone https://github.com/USMA-SIGSAC/learn-C</code>
     </li>
-    <li>make a new directory using your handle
-        <ul>
-            <li><code>cd /learn-C</code></br></li>
-            <li><code>mkdir <em>your handle</em></code></li>
-        </ul>
+    <li>make a new directory using your handle</br>
+        &nbsp&nbsp<code>cd /learn-C</code></br>
+        &nbsp&nbsp<code>mkdir <em>your handle</em></code>
     </li>
 </ol>
 <h3>Making Contributions</h3>
@@ -34,9 +32,9 @@ use "Learn C the Hard Way" and post your progress here!</br>
     </li>
     <li>
         after you are done for the day, update and save your commit by</br>
-            <code>git add --all</code>
-            <code>git comimt -m "ex1, ex2, ex3"</code>
-        &nbsp&nbsp(you can put whatever message describing your commit between " ")
+        &nbsp&nbsp<code>git add --all</code></br>
+        &nbsp&nbsp<code>git comimt -m "ex1, ex2, ex3"</code></br>
+        &nbsp&nbsp(you can put whatever message describing your commit between "&nbsp")
     </li>
     <li>
         submit your commit by</br>

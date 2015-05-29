@@ -23,16 +23,14 @@ use "Learn C the Hard Way" and post your progress here!</br>
         &nbsp&nbsp<code>git clone https://github.com/USMA-SIGSAC/learn-C</code?
     </li>
     
-    <li>make a new directory using your handle</li>
+    <li>make a new directory using your handle
         &nbsp&nbsp<code>cd /learn-C</code></br>
         &nbsp&nbsp<code>mkdir <em>your handle</em></code>
     </li>
 </ol>
 <h3>Making Contributions</h3>
 <ol>
-    <li><em>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</em></li>
-    
-    <li>inside your directory, put your learn C progress!</li>
+    <li>inside your directory, put your learn C progress!<strong>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</strong></li>
  
     <li>
         after you are done for the day, update and save your commit by

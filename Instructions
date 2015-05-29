@@ -1,45 +1,46 @@
-Git and Learn C the Hard Way instructions
-
-1. While alternate methods are available for interacting with Github, use a terminal to build proficiency.
-
-2. Install Git if you don't have it 
-sudo apt-get install git
-
-3. make a new directory (such as Git)
-    <code>mkdir Git</code>
-
-3. go into the directory and clone this repo to download a working local copy
-
-    cd Git
-    git clone https://github.com/USMA-SIGSAC/learn-C
-
-4. make a new directory using your handle
-    in learn-C directory
-
-    cd /learn-C
-    mkdir higunwoo //example
-
-
-------END OF INITIAL SETUP------
-**DO NOT delete/modify OTHER PEOPLE's FOLDERS**
-
-5. inside your directory, put your learn C progress!
-
-*use vim as their text editor because when operating on a target box 
-we don't get to choose what tools are on it, but vim, or at least 
-vi always will be so you must be proficient at it 
-
-6. after you are done for the day, update and save your commit by
-
-git add --all
-git comimt -m "ex1, ex2, ex3" 
-(you can put whatever message describing your commit between " ")
-
-7. submit your commit by
-git push origin
-
-if you get an error at this point try "git pull" and then try "git push origin" again.
-
-(If you have any questions, look ask batman higunwoo.)
-
-http://rogerdudler.github.io/git-guide/ is a good source to learn about gits.
+<h2>Git and Learn C the Hard Way instructions</h2>
+</br>
+<h3>Git Initial Setup</h3>
+<ol>
+    <li>Tools
+        <ul>
+            <li><a href="http://rogerdudler.github.io/git-guide/">Here's</a> a good Git tutorial. Use the commands rather than other ways of interacting with Github to build proficiency.</li> 
+            <li>Use Vim as your text editor for LCTHW. If you're on a target box you don't get to choose what tools are installed, so learn Vim because it (or at least Vi) should be on every *nix box. <a href="">Here's a good Vim tutorial.</a></li>
+        </ul>
+    <li>Install Git if you don't have it</br>
+        &nbsp&nbsp<code>sudo apt-get install git</code>
+    </li>
+    
+    <li>make a new directory (such as Git)</br>
+        &nbsp&nbsp<code>mkdir Git</code>
+    </li>
+    
+    <li>go into the directory and clone this repo to download a working local copy</li>
+        &nbsp&nbsp<code>cd Git</code></br>
+        &nbsp&nbsp<code>git clone https://github.com/USMA-SIGSAC/learn-C</code?
+    </li>
+    
+    <li>make a new directory using your handle</li>
+        &nbsp&nbsp<code>cd /learn-C</code>
+        &nbsp&nbsp<code>mkdir higunwoo //example</code>
+    </li>
+</ol>
+<h3>Making Contributions</h3>
+<ol>
+    <li><em>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</em></li>
+    
+    <li>inside your directory, put your learn C progress!</li>
+ 
+    <li>
+        after you are done for the day, update and save your commit by
+        &nbsp&nbsp<code>git add --all</code></br>
+        &nbsp&nbsp<code>git comimt -m "ex1, ex2, ex3" </code></br>
+        &nbsp&nbsp&nbsp&nbsp(you can put whatever message describing your commit between " ")
+    </li>
+    
+    <li>
+        submit your commit by
+        &nbsp&nbsp<code>git push origin</code></br>
+        &nbsp&nbspif you get an error at this point try "git pull" and then try "git push origin" again.
+    </li>
+</ol>

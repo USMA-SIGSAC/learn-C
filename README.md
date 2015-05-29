@@ -13,16 +13,13 @@ use "Learn C the Hard Way" and post your progress here!</br>
     <li>Install Git if you don't have it</br>
         &nbsp&nbsp<code>sudo apt-get install git</code>
     </li>
-    
     <li>make a new directory (such as Git)</br>
         &nbsp&nbsp<code>mkdir Git</code>
     </li>
-    
     <li>go into the directory and clone this repo to download a working local copy</li>
         &nbsp&nbsp<code>cd Git</code></br>
-        &nbsp&nbsp<code>git clone https://github.com/USMA-SIGSAC/learn-C</code?
+        &nbsp&nbsp<code>git clone https://github.com/USMA-SIGSAC/learn-C</code>
     </li>
-    
     <li>make a new directory using your handle
         <ul>
             <li><code>cd /learn-C</code></br></li>
@@ -35,16 +32,12 @@ use "Learn C the Hard Way" and post your progress here!</br>
     <li>
         inside your directory, put your learn C progress! <strong>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</strong>
     </li>
- 
     <li>
         after you are done for the day, update and save your commit by</br>
-        <ul>
-            <li><code>git add --all</code></li>
-            <li><code>git comimt -m "ex1, ex2, ex3" </code></li>
-        </ul>
+            <code>git add --all</code>
+            <code>git comimt -m "ex1, ex2, ex3"</code>
         &nbsp&nbsp(you can put whatever message describing your commit between " ")
     </li>
-    
     <li>
         submit your commit by</br>
         &nbsp&nbsp<code>git push origin</code></br>

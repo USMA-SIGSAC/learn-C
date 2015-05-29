@@ -1,4 +1,4 @@
-<h3>Git and Learn C the Hard Way instructions</h3>
+Git and Learn C the Hard Way instructions
 
 1. While alternate methods are available for interacting with Github, use a terminal to build proficiency.
 
@@ -13,11 +13,11 @@ sudo apt-get install git
     cd Git
     git clone https://github.com/USMA-SIGSAC/learn-C
 
-4. make a new directory using your handle/githubID/name(if you choose to do so)
-in learn-C directy
+4. make a new directory using your handle
+    in learn-C directory
 
-cd /learn-C
-mkdir higunwoo //example
+    cd /learn-C
+    mkdir higunwoo //example
 
 
 ------END OF INITIAL SETUP------

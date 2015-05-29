@@ -24,19 +24,23 @@ use "Learn C the Hard Way" and post your progress here!</br>
     </li>
     
     <li>make a new directory using your handle
-        &nbsp&nbsp<code>cd /learn-C</code></br>
-        &nbsp&nbsp<code>mkdir <em>your handle</em></code>
+        <ul>
+            <li><code>cd /learn-C</code></br></li>
+            <li><code>mkdir <em>your handle</em></code></li>
+        </ul>
     </li>
 </ol>
 <h3>Making Contributions</h3>
 <ol>
-    <li>inside your directory, put your learn C progress!<strong>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</strong></li>
+    <li>inside your directory, put your learn C progress! <strong>**DO NOT delete/modify OTHER PEOPLE's FOLDERS**</strong></li>
  
     <li>
-        after you are done for the day, update and save your commit by
-        &nbsp&nbsp<code>git add --all</code></br>
-        &nbsp&nbsp<code>git comimt -m "ex1, ex2, ex3" </code></br>
-        &nbsp&nbsp&nbsp&nbsp(you can put whatever message describing your commit between " ")
+        after you are done for the day, update and save your commit by</br>
+        <ul>
+            <li><code>git add --all</code></li>
+            <li><code>git comimt -m "ex1, ex2, ex3" </code></li>
+        </ul>
+        &nbsp&nbsp(you can put whatever message describing your commit between " ")
     </li>
     
     <li>

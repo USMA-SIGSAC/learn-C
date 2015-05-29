@@ -37,7 +37,12 @@ use "Learn C the Hard Way" and post your progress here!</br>
         &nbsp&nbsp(you can put whatever message describing your commit between "&nbsp")
     </li>
     <li>
-        submit your commit by</br>
+        Before you submit, you will get an error message if your local folder is not synced to the web repository.</br>
+        &nbsp&nbsp<code>git pull https://github.com/USMA-SIGSAC/learn-C</code></br>&nbsp&nbsp
+        This will sync your local folder with most up-to-date web repository.
+    </li>
+    <li>
+        Now, submit your commit by</br>
         &nbsp&nbsp<code>git push origin</code></br>
         &nbsp&nbspif you get an error at this point try "git pull" and then try "git push origin" again.
     </li>

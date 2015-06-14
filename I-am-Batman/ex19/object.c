@@ -7,12 +7,12 @@
 void Object_destroy(void *self){
 	Object *obj = self;
 	if(obj){
-		if(if->description) free(obj->description_;
+		if(obj->description) free(obj->description);
 		free(obj);
 	}
 }
 
-void Object_descript(void *self){
+void Object_describe(void *self){
 	Object *obj = self;
 	printf("%s.\n", obj->description);
 }
@@ -32,6 +32,7 @@ int Object_attack(void *self, int damage){
 }
 
 void *Object_new(size_t size, Object proto, char *description){
+	assert(description != NULL);
 	//setup the default funciton in case they aren't set
 	if(!proto.init) proto.init = Object_init;
 	if(!proto.describe) proto.describe = Object_describe;
@@ -42,6 +43,7 @@ void *Object_new(size_t size, Object proto, char *description){
 	//this seems weird, but we can make a struct of one size
 	//then point a different pointer at it to "cast" is
 	Object *el = calloc(1, size);
+	assert(el != NULL);
 	*el = proto;
 
 	//copy the descriptor over

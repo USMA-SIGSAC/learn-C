@@ -1,0 +1,52 @@
+ex01: Dust Off That Compiler
+ex02: Make Is Your Python Now
+ex03: Formatted Printing
+ex04: Introducing Valgrind
+ex05: The Structure Of A C Program
+ex06: Types Of Variables
+ex07: More Variables, Some Math
+ex08: Sizes And Arrays
+ex09: Arrays And Strings
+ex10: Arrays Of Strings, Looping
+ex11: While-Loop And Boolean Expressions
+ex12: If, Else-If, Else
+ex13: Switch Statement
+ex14: Writing And Using Functions
+ex15: Pointers Dreaded Pointers
+ex16: Structs And Pointers To Them
+ex17: Heap And Stack Memory Allocation
+ex18: Pointers To Functions
+ex19: A Simple Object System
+ex20: Zed's Awesome Debug Macros
+ex21: Advanced Data Types And Flow Control
+ex22: The Stack, Scope, And Globals
+ex23: Meet Duff's Device
+ex24: Input, Output, Files
+ex25: Variable Argument Functions
+ex26: Write A First Real Program
+ex27: Creative And Defensive Programming
+ex28: Intermediate Makefiles
+ex29: Libraries And Linking
+ex30: Automated Testing
+ex31: Debugging Code
+ex32: Double Linked Lists
+ex33: Linked List Algorithms
+ex34: Dynamic Array
+ex35: Sorting And Searching
+ex36: Safer Strings
+ex37: Hashmaps
+ex38: Hashmap Algorithms
+ex39: String Algorithms
+ex40: Binary Search Trees
+ex41: Using Cachegrind And Callgrind For Performance Tuning
+ex42: Stacks and Queues
+ex43: A Simple Statistics Engine
+ex44: Ring Buffer
+ex45: A Simple TCP/IP Client
+ex46: Ternary Search Tree
+ex47: A Fast URL Router
+ex48: A Tiny Virtual Machine Part 1
+ex48: A Tiny Virtual Machine Part 2
+ex50: A Tiny Virtual Machine Part 3
+ex51: A Tiny Virtual Machine Part 4
+ex52: A Tiny Virtual Machine Part 5

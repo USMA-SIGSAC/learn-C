@@ -1,7 +1,7 @@
 #ifndef _object_h
 #define _object_h
 
-typefec enum{
+typedef enum{
 	NORTH, SOUTH, EAST, WEST
 } Direction;
 

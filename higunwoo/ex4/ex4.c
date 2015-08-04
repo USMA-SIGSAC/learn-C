@@ -5,8 +5,8 @@
 int main()
 {
 	int age=10;
-	int height;
-	printf("I am %d years old.\n");
+	int height=30;
+	printf("I am %d years old.\n", age);
 	printf("I am %d inches tall.\n",height);
 	return 0;
 }

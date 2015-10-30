@@ -28,7 +28,7 @@ void die(const char *message)
 	if(errno) {
 		perror(message);
 	} else {
-		printf("AIROR: %s\n", message);
+		printf("ErROR: %s\n", message);
 	}
 
 	exit(1);
